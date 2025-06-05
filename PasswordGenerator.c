@@ -1,12 +1,16 @@
-/*Make a while loop,
-Get the length of password
-Decide what character the password can have
-Randomly choose the character on each slot
-and print the password*/
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 #include <time.h>
+
+/*
+Author: Sol medeiros de faria
+Pronouns: It/its
+Date: Somewhere in 2024 after the calculator project
+Project name: Password generator
+Purpose: Generate a random password with a length given by user
+*/
 
 char password[121];
 int length;
